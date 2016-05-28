@@ -14,7 +14,6 @@
   });
 
   function success(stream){
-    var video = document.querySelector("#player");
-    video.src = window.URL.createObjectURL(stream);
+
   }
 })();
