@@ -1,5 +1,5 @@
 (function(){
-  var mediaOptions = { audio: false, video: true };
+  var mediaOptions = { audio: true, video: true };
 
   if (!navigator.getUserMedia) {
       navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia;
